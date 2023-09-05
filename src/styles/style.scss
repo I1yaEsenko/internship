@@ -1,0 +1,194 @@
+@import "./reset.css";
+@import "./style.css";
+
+// Общии стили блоков
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Gotham Pro', Arial, sans-serif;
+  font-size: 25px;
+  min-height: 100vh;
+  font-weight: 700;
+}
+
+#root{
+  min-height: 100vh;
+}
+
+.container {
+  width: 1300px;
+  padding: 0 14px;
+  margin: 0 auto;
+}
+
+.content{
+  flex: 1;
+}
+
+//Кнопка
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: #F86161;
+  padding: 10px;
+  color: #FFF;
+  font-size: 16px;
+  line-height: 152%;
+}
+
+.title{
+  color: #363B46;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 140%;
+}
+
+.green-line{
+  &::before{
+    position: absolute;
+    content: '' ;
+    width: 72px;
+    height: 6px;
+    border-radius: 6px;
+    background: #83BF0E;
+    top: -40px;
+    left: 0;
+  }
+}
+.highlighted{
+  padding: 0 25px;
+  border-radius: 10px;
+  border: 3px dashed #83BF0E;
+}
+
+// Стилизация навигации ==========================
+
+.navigation {
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin: 0 34px;
+    position: relative;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child .navigation__link {
+      color: #F86161;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: -44px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 25px;
+      height: 11px;
+      background-image: url('./img/arrow.svg');
+      background-size: cover;
+    }
+
+    &:last-child {
+      &::after {
+        content: '';
+        width: 0;
+        height: 0;
+      }
+    }
+  }
+
+  &__link {
+    font-weight: 700;
+    font-size: 16px;
+    color: #131313;
+
+
+  }
+}
+
+
+//Стилизация контакты
+.contacts {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 120%;
+  // .contacts__wrapper
+
+  &__wrapper {
+  }
+
+  // .contacts__title
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  // .contacts__telegram
+
+  &__telegram {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    & img{
+      padding-left: 10px;
+    }
+  }
+
+  // .contacts__phone
+
+  &__phone {
+    margin-bottom: 25px;
+  }
+
+  // .contacts__mail
+
+  &__mail {
+    margin-bottom: 25px;
+  }
+
+  // .contacts__address
+
+  &__address {
+    margin-bottom: 70px;
+  }
+
+  // .contacts__social
+
+  &__social {
+
+  }
+}
+
+//Стилизация социальные сети
+
+.social {
+
+  // .social__wrapper
+
+  &__wrapper {
+  }
+
+  // .social__title
+
+  &__title {
+  }
+
+  // .social__links
+
+  &__links {
+  }
+
+  // .social__link
+
+  &__link {
+  }
+}

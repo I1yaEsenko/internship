@@ -1,0 +1,114 @@
+.footer {
+
+  // .footer__wrapper
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__contact{
+    display: flex;
+    margin: 100px 0;
+      }
+  // .footer__contacts
+
+  &__contacts {
+    width: 507px;
+    margin-right: 118px;
+
+  }
+
+  // .footer__title
+
+  &__title {
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 124.2%;
+  }
+
+  // .footer__form
+
+  &__form {
+  }
+
+  &__privacy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    padding: 34px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.30);
+
+  }
+  &__privacy-link{
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+.contacts {
+
+  // .contacts__wrapper
+
+  &__wrapper {
+  }
+
+  // .contacts__title
+
+  &__title {
+  }
+
+  // .contacts__telegram
+
+  &__telegram {
+  }
+
+  // .contacts__phone
+
+  &__phone {
+  }
+
+  // .contacts__mail
+
+  &__mail {
+  }
+
+  // .contacts__address
+
+  &__address {
+  }
+
+  // .contacts__social
+
+  &__social {
+  }
+}
+.social {
+
+  // .social__wrapper
+
+  &__wrapper {
+  }
+
+  // .social__title
+
+  &__title {
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 11px;
+  }
+
+  // .social__links
+
+  &__links {
+  }
+
+  // .social__link
+
+  &__link {
+  }
+}

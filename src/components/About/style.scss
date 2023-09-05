@@ -1,0 +1,146 @@
+.about {
+  background: linear-gradient(115deg, #F3FCF3 6.96%, #FEF6E8 96.48%);
+  position: relative;
+
+  &__images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 130px;
+    margin-top: -60px;
+    margin-bottom: 40px;
+
+    & img {
+      z-index: 10;
+      max-width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 141px;
+    align-items: center;
+
+  }
+
+  &__title {
+    max-width: 380px;
+    color: #FFF;
+    font-size: 40px;
+    line-height: 150%; /* 56px */
+    z-index: 5;
+    position: relative;
+  }
+
+  &__desc {
+    max-width: 460px;
+    z-index: 5;
+  }
+
+  &__text {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-bottom: 35px;
+
+  }
+
+  // .about__highlighted
+
+  &__highlighted {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 180%; /* 50.4px */
+    padding: 5px 26px;
+  }
+
+  &__prototype {
+  }
+
+  // .about__poll
+
+  &__poll {
+  }
+}
+
+
+.prototype {
+
+  // .prototype__count
+
+  &__count {
+    color: #89A939;
+    text-align: center;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 21px;
+  }
+
+  // .prototype__title
+
+  &__title {
+    color: #363B46;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 32px;
+  }
+
+  // .prototype__text
+
+  &__text {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 32px;
+    font-weight: 400;
+  }
+
+  // .prototype__img
+
+  &__img {
+    padding: 0 36px;
+    margin-bottom: 112px;
+  }
+}
+
+.poll {
+
+  display: flex;
+  justify-content: space-between;
+
+  &__body {
+    margin-top: 115px;
+  }
+
+  &__title {
+    max-width: 540px;
+    margin: 35px 0;
+    position: relative;
+    line-height: 140%;
+  }
+
+  &__list {
+  }
+
+  &__list-item {
+    list-style-type: disc;
+    margin-left: 35px;
+    font-size: 25px;
+    font-weight: 400;
+
+    &:nth-child(2) {
+      padding: 24px 0;
+    }
+  }
+
+  // .poll__img
+
+  &__img {
+    margin-right: 34px;
+  }
+}

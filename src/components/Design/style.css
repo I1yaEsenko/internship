@@ -1,0 +1,29 @@
+.design {
+  background: url(./img/designBg.png) center/cover repeat;
+  padding: 109px 0 96px;
+}
+.design__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.design__title {
+  max-width: 520px;
+  margin: 0 auto;
+  margin-bottom: 54px;
+}
+.functional__title {
+  position: relative;
+  margin: 40px 0;
+}
+.functional__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  font-weight: 400;
+}
+.functional__list-item img {
+  margin-right: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

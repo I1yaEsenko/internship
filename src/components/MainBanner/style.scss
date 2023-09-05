@@ -1,0 +1,36 @@
+.banner{
+  width: 100%;
+  min-height: 100vh;
+  background: url(./img/banner.png) center/contain no-repeat;
+  position: relative;
+  &__wrapper{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+
+  }
+  &__title{
+    width: 100%;
+    min-height: 247px;
+    background-image: url('./img/bannerTitle.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform:translate(0,-50%);
+    z-index: 10;
+  }
+
+
+}
+
+
+.bg{
+  position: absolute;
+  width: 1920px;
+  height:802px;
+  background: url('./img/bg.png') center/contain no-repeat;
+  bottom: -338px;
+  left: 0;
+  z-index: 1;
+}

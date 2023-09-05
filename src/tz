@@ -1,0 +1,21 @@
+
+Задача обязательная:
+Сверстать страницу сайта по фигме для пк, планшета и мобильного телефона; добавить анимацию появления контента снизу вверх
+Усложненная версия задачи:
+добавить резиновую верстку от телефона до пк
+
+Что потребуется:
+дизайн:
+https://www.figma.com/file/pZKxPkV7qGH1foUKFICde4/internship?type=design&node-id=0-1&mode=design&t=3JUoKcaoiYyVqSdN-0
+
+
+библиотеки (обязательно использовать):
+
+https://react.dev/
+https://www.typescriptlang.org/
+
+https://nextjs.org/ Next.js используется для SSR / SSG. Никакой бэкенд логики там не будет
+https://en.bem.info/
+
+
+https://sass-lang.com/

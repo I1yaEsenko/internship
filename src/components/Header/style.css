@@ -1,0 +1,27 @@
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+  padding: 15px 0;
+}
+.header__actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header__button {
+  width: 260px;
+  height: 54px;
+  margin: 15px 30px 15px 0;
+}
+.header__burger {
+  display: flex;
+  align-items: center;
+}
+.header__navigation {
+  height: 45px;
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=style.css.map */

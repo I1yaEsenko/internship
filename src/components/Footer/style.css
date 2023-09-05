@@ -1,0 +1,40 @@
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.footer__contact {
+  display: flex;
+  margin: 100px 0;
+}
+.footer__contacts {
+  width: 507px;
+  margin-right: 118px;
+}
+.footer__title {
+  color: #000;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 124.2%;
+}
+.footer__privacy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  padding: 34px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+.footer__privacy-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.social__title {
+  font-size: 16px;
+  line-height: 120%;
+  margin-bottom: 11px;
+}
+
+/*# sourceMappingURL=style.css.map */

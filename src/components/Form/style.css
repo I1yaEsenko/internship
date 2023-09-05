@@ -1,0 +1,96 @@
+.form {
+  font-size: 16px;
+  padding-right: 39px;
+}
+.form__title {
+  margin-bottom: 33px;
+}
+.form__description {
+  font-size: 20px;
+  margin-bottom: 55px;
+}
+.form__items {
+  display: flex;
+  gap: 41px;
+}
+.form__data {
+  display: flex;
+  margin-bottom: 61px;
+}
+.form__name {
+  width: 300px;
+  border-bottom: 1px solid grey;
+  margin-right: 20px;
+  padding-bottom: 5px;
+}
+.form__phone {
+  width: 250px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+}
+.form__about {
+  margin-bottom: 41px;
+  border-bottom: 1px solid grey;
+}
+.form__textarea {
+  width: 100%;
+  height: 20px;
+  padding: 4px;
+  resize: none;
+  font-size: 16px;
+}
+.form__download {
+  margin-bottom: 41px;
+}
+.form__download-span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}
+.form__download-btn {
+  display: none;
+}
+.form__agreement {
+  margin-bottom: 41px;
+}
+.form__checkbox {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+.form__checkbox:checked + .form__customCheckbox::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+.form__customCheckbox {
+  position: relative;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  border: 1px solid #F86161;
+  border-radius: 6px;
+  vertical-align: sub;
+  margin-right: 10px;
+}
+.form__customCheckbox::before {
+  content: "";
+  width: 21px;
+  height: 21px;
+  background-image: url(./img/checkbox.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.3s ease-in;
+}
+.form__btn {
+  width: 218px;
+  height: 62px;
+}
+
+/*# sourceMappingURL=style.css.map */
